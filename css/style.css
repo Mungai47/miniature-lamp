@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.block-element {
+    display: inline;
+}
+.first-container{
+    background-color: #141c27;
+}
+.navigation{
+    padding: 5px 10%;
+}
+.navigation .nav-link, .navbar-brand {
+    color: white; /* Set the text color to white */
+}
+.navbar-toggler-icon{
+    background-color: #55e6a5;
+}
+.container2{
+    background-color: #09101a;
+    color: white;
+    padding:150px 10%;
+}
+.container3{
+    background-color: #02050a;
+    color: white;
+    padding:100px 10%;
+}
+.octagon-avatar {
+    width: 500px; /* Adjust the size as needed */
+    height: 500px; /* Adjust the size as needed */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    border: 10px solid #55e6a5;
+    border-radius: 20px; /* Optional border radius */
+}
+h1{
+    font-size: 3.5rem;
+}
+@media (max-width: 1024px) {
+    .block-div {
+        display: none; /* Hide the div on smaller screens */
+    }
+}
+button{
+    background-color: #55e6a5;
+    color:black;
+    color: black;    
+    border: none;    
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;    
+    border-radius: 5px;
+}
+.video-player{
+    padding:20px 10px
+}
+.card{
+    background-color: #02050a;
+    color: grey;
+    border: 2px solid grey;
+    padding: 10px;
+}
+.card-container{
+    padding-top: 30px;
+}
+
+.about-us{
+    padding:100px 10px;
+    
+}
+.about-us img{
+    border-right: 5px solid #55e6a5;
+    border-top: 5px solid #55e6a5;
+}
